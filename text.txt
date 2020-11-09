@@ -1,10 +1,10 @@
 ﻿这是第0个内容
 更新内容1
-<<<<<<< HEAD
-this third neirong】
+
+this third neirong
 
 
 这是git——four更新内容
-=======
+
 this third neirong
->>>>>>> ef6ac703c9e36e9ad08afdba877cea16a5d3a893
+
