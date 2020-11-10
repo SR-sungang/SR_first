@@ -1,0 +1,1 @@
+<view style="{{'height:'+(windowHeight+'px')+';'}}"><block wx:for="{{num}}" wx:for-item="i" wx:for-index="__i0__" wx:key="*this"><view class="{{[(true)?'red':'']}}">{{''+i+''}}</view></block></view>

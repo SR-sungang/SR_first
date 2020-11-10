@@ -1,0 +1,1 @@
+<view><map style="width:100%;height:300px;" id="myMap" markers="markers" longitude="poi.longitude" latitude="poi.latitude" scale="16" show-location="{{true}}"></map></view>

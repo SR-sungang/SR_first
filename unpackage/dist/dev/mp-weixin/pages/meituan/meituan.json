@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "美团页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-row": "/wxcomponents/dist/row/index",
+    "van-col": "/wxcomponents/dist/col/index",
+    "van-icon": "/wxcomponents/dist/icon/index",
+    "van-search": "/wxcomponents/dist/search/index",
+    "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+    "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+    "van-overlay": "/wxcomponents/dist/overlay/index"
+  }
+}

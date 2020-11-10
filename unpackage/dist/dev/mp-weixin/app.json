@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/meituan/meituan",
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/api/api",
+    "pages/daizhi/daizhi"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/icon2.png",
+        "selectedIconPath": "static/icon/icon2-active.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商品",
+        "iconPath": "static/icon/icon1.png",
+        "selectedIconPath": "static/icon/icon1-active.png"
+      },
+      {
+        "pagePath": "pages/api/api",
+        "text": "api",
+        "iconPath": "static/icon/icon3.png",
+        "selectedIconPath": "static/icon/icon3-active.png"
+      },
+      {
+        "pagePath": "pages/meituan/meituan",
+        "text": "meituan",
+        "iconPath": "static/icon/icon3.png",
+        "selectedIconPath": "static/icon/icon3-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap82.json"
+}

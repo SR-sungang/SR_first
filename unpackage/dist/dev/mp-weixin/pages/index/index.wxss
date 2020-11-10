@@ -1,0 +1,23 @@
+
+.red{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.blue{
+	background-color: #007AFF;
+	width: auto;
+	height: 500PX;
+}
+.black{
+	background-color:#333333;
+	width: auto;
+	height: 100%;
+}
+

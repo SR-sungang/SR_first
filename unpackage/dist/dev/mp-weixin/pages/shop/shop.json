@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品页",
+  "usingComponents": {
+    "van-row": "/wxcomponents/dist/row/index",
+    "van-col": "/wxcomponents/dist/col/index",
+    "van-card": "/wxcomponents/dist/card/index",
+    "i-load-more": "/wxcomponents/iview/load-more/index"
+  }
+}

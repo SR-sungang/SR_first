@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/meituan/meituan",
+		    "style" : {
+				"navigationBarTitleText": "美团页",
+				"navigationStyle":"custom",
+				"usingComponents":{
+		            "van-row": "/wxcomponents/dist/row/index",
+		            "van-col": "/wxcomponents/dist/col/index",
+					"van-icon": "/wxcomponents/dist/icon/index",
+					"van-search": "/wxcomponents/dist/search/index",
+					"van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					"van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					"van-overlay": "/wxcomponents/dist/overlay/index"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "第一个UNI-index--首页",
+				"usingComponents":{
+					 "van-button": "/wxcomponents/dist/button/index",
+					 "i-button": "/wxcomponents/iview/button/index"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationBarTitleText": "商品页",
+				"usingComponents":{
+					 "van-row": "/wxcomponents/dist/row/index",
+					 "van-col": "/wxcomponents/dist/col/index",
+					 "van-card": "/wxcomponents/dist/card/index",
+					 "i-load-more": "/wxcomponents/iview/load-more/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/api/api",
+            "style" : {
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":50
+			}
+        }
+        
+        ,{
+            "path" : "pages/daizhi/daizhi",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"list":[
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath":"static/icon/icon2.png",
+				"selectedIconPath": "static/icon/icon2-active.png"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"text": "商品",
+				"iconPath":"static/icon/icon1.png",
+				"selectedIconPath": "static/icon/icon1-active.png"
+			},
+			{
+				"pagePath": "pages/api/api",
+				"text": "api",
+				"iconPath":"static/icon/icon3.png",
+				"selectedIconPath": "static/icon/icon3-active.png"
+			},
+			{
+				"pagePath": "pages/meituan/meituan",
+				"text": "meituan",
+				"iconPath":"static/icon/icon3.png",
+				"selectedIconPath": "static/icon/icon3-active.png"
+			}
+		]
+	}
+}
